@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.xiaopo.flying.degreeseekbar.MainActivity">
+
+    <com.xiaopo.flying.degreeseekbar.DegreeSeekBar
+        android:id="@+id/degree_one"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp" />
+
+    <com.xiaopo.flying.degreeseekbar.DegreeSeekBar
+        android:id="@+id/degree_two"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp" />
+
+    <com.xiaopo.flying.degreeseekbar.DegreeSeekBar
+        android:id="@+id/degree_three"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
